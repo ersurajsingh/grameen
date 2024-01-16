@@ -1,0 +1,64 @@
+/* header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #528265;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 18px 20px 18px 0;
+}
+
+.header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 0 4px;
+}
+
+.header_searchInput {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.header_searchIcon {
+    background-color: #cd9042;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_Nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.header_option {
+    padding: 10px 9px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_optionLineOne {
+    font-size: 10px;
+}
+
+.header_optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
