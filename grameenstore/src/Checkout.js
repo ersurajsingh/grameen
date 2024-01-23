@@ -22,6 +22,7 @@ function Checkout() {
         </div>
 
         <div className="checkout_right">
+            <Subtotal />
             <h2>The subtotal will be here</h2>
         </div>
 
