@@ -1,15 +1,20 @@
 import React from "react";
 import "./header.css";
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
     <div className="header">
       {/* Grameen Logo */}
+      <Link to="/">
       <img
         className="header_logo"
         src="https://github.com/ersurajsingh/grameen/blob/main/grameenstore/assets/grameenlogo.png?raw=true"
         alt="Grameen Logo"
       />
+      </Link>
+      
 
       {/* Search Bar */}
       <div className="header_search">
@@ -47,7 +52,9 @@ function Header() {
           <span className="header_optionLineTwo">Membership</span>
         </div>
         
+        
         <div className="header_optionBasket">
+        
         <svg 
         xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
